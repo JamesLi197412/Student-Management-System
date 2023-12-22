@@ -62,8 +62,8 @@ public class Student {
 
     }
     // Show status
-    print String showInfo(){
-        return "Name :" + firstName + " " + lastName;
+    public void showInfo(){
+        System.out.println("Name :" + firstName + " " + lastName);
     }
 
 
